@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: white;
+    border: 1px solid black;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+.companyname{
+    font-family: 'Zen Dots', cursive;
+}
+.header a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li{
+    float: left;
+    list-style-type: none;
+    padding: 5px;
+}
+.right{
+    position: absolute;
+    right: 0px;
+}
+.login{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.navbar{
+    clear: left;
+    border: 1px solid black;
+    background-color: green;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+.nav_elements li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+}
+.nav_elements li a:hover{
+    opacity: 0.9;
+    background-color: white;
+}
+.nav_elements li a:hover{
+    color: black;
+}
+.icon{
+    padding: 2px;
+}
+.row{
+    width: 100%;
+}
+.menu{
+    width: 15%;
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+    height: 100%;
+}
+.content{
+    width: 85%;
+    float: left;
+    padding: 10px;
+}
+.main-body{
+    padding: 10px;
+    width: 95%;
+    margin: 10px auto 10px;
+
+}
+.menu ul{
+    text-align: center;
+    margin: 10px auto 10px;
+}
+.menu ul li{
+    clear: left;
+    display: block;
+    padding: 5px;
+    font-family: cursive;
+    
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 1.05em;
+    color: black;
+    font-size: 1.05em;
+}
+
+.html-div,.css-div{
+    height: 450px;
+    overflow: hidden;
+}
+.info{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    height: 100%;
+}
+.code-example{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    height: 100%;
+    background-color: rgba(211, 211, 211, 0.856);
+    box-shadow: 1px 1px 15px lightgray;
+    border-radius: 10px;
+
+}
+.code{
+    margin: 15px auto 15px;
+    padding: 10px;
+    background-color: white;
+    height: 75%;
+    border: none;
+    box-shadow: 1px 1px 5px lightgray;
+    border-left: 4px solid green;
+}
+
+.buttons{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    border: 1px solid black;
+    background-color: rgb(26, 22, 22,0.8);
+    color: white;
+    
+}
+.buttons:hover{
+    background-color: lightgray;
+    color: black;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.tiy{
+    background-color: green;color:white
+}
+.tiy:hover{
+    background-color: green;color:white;
+    box-shadow: 5px 5px 10px black;
+}
+h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.info-inner-innner p{
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+.refer{
+    margin-top: 20px;
+}
+.info-inner{
+    height: 100%;
+    margin: auto 10px auto;
+    text-align: center;
+}
+.info-inner-innner{
+    margin:50px auto 10px;
+}
+.css-div{
+    margin-top: 60px;
+    background-color: rgba(211, 211, 211, 0.856);
+}
+.footer-en{
+    background-color: rgb(214, 247, 214);
+    clear: left;
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.details{
+    width: 85%;
+    margin: 10px auto 10px;
+}
+.thumbup i{
+    font-size: 2em;
+    margin-right: 10px;
+
+}
+.fa-thumbs-up:hover{
+    color: green;
+}
+.fa-thumbs-down:hover{
+    color: red;
+}
+@media (max-width:886px){
+    *{
+        font-size: 90%;
+    }
+    .icon{
+        display: none;
+    }
+}
